@@ -1,0 +1,32 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+      body {
+        background: linear-gradient(to right, #010413 0%, #080320 100%);
+        padding: 30px;
+        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+
+      }
+      body header div a {
+        color:aqua;
+        padding: 30px;
+        text-decoration: none;
+        text-align: center;
+        line-height: 30px;
+
+      }
+
+      .links {
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      body header div a:hover {
+        color: white;
+        transition: color 700ms;
+
+      }
